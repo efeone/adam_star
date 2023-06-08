@@ -613,7 +613,7 @@ a:focus {
 
 .about .about-text p {
     text-align: justify;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .about .about-text a.btn {
@@ -947,10 +947,12 @@ a:focus {
 }
 
 .team .team-img img {
+    height: 14pc;
     width: 100%;
 }
 
 .team .team-text {
+    height: 11.5pc;
     position: relative;
     padding: 25px 15px;
     text-align: center;
@@ -1250,6 +1252,7 @@ a:focus {
 }
 
 .blog .blog-img img {
+    margin-bottom: 13px;
     height: 14pc;
     width: 100%;
 }
@@ -1356,24 +1359,21 @@ a:focus {
     color: #999999;
 }
 
-*** Brands ***/
-/* h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
-.demo-gallery > ul {
-  margin-bottom: 0;
-} */
+/* *** Brands ***/ */
+
 .demo-gallery > ul > li {
     float: left;
-    margin-bottom: 15px;
-    margin-right: 20px;
-    width: 200px;
+    /* margin-bottom: 15px;
+    margin-right: 20px; */
+    width: 100px;
 }
 .demo-gallery > ul > li a { 
     height: 70%;
-    width: 11pc;
-    padding: 15px;
+    width: 100%;
+    padding: 17px;
     text-align: center;
     border: solid 1px #00000088;
-    border-radius: 0px;
+    border-radius: 12px;
     display: block;
     overflow: hidden;
     position: relative;
