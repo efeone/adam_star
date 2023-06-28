@@ -1340,8 +1340,8 @@ a:focus {
 .blog .blog-text p {
     height: 9pc;
     text-align: justify;
-    margin: 4px;
-    font-size: 12px;
+    margin: 0px;
+    font-size: 10px;
 }
 
 .blog .pagination .page-link {
