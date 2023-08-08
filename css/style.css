@@ -44,23 +44,24 @@ a:focus {
 
 .back-to-top {
     position: fixed;
-    display: none;
-    background: #f5b41a;
-    color: #121518;
-    width: 44px;
+    display: flex;
+    background: #f5b31a00;
+    color: #ffd805;
+    width: 45px;
     height: 44px;
     text-align: center;
     line-height: 1;
-    font-size: 22px;
+    font-size: 38px;
     right: 15px;
     bottom: 15px;
-    transition: background 0.5s;
+    transition: background 0.0s;
     z-index: 9;
+
 }
 
 .back-to-top:hover {
     color: #f5b41a;
-    background: #121518;
+    background: #12151800;
 }
 
 .back-to-top i {
