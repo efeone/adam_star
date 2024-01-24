@@ -2458,3 +2458,27 @@ a:focus {
         text-align: center;
     }
 }
+
+/*photobanner*/
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 50s linear infinite;
+	   -moz-animation: bannermove 50s linear infinite;
+	    -ms-animation: bannermove 50s linear infinite;
+	     -o-animation: bannermove 50s linear infinite;
+	        animation: bannermove 50s linear infinite;
+}
+
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -5746px;
+ }
+
+}
+
+
