@@ -18,7 +18,7 @@ h6 {
 }
 
 a {
-    color: #666666;
+    color: #b9aeae;
     transition: .3s;
 }
 
@@ -1334,7 +1334,7 @@ a:focus {
 }
 
 .blog .blog-text {
-    padding: 10px 25px 25px 25px;
+    padding: 10px 25px 75px 25px;
     background: #f3f6ff;
 }
 
