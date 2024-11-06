@@ -1032,6 +1032,16 @@ a:focus {
     transition: .3s .3s;
 }
 
+@media(max-width: 400px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 100px;
+    }
+}
 
 /*******************************/
 /*********** FAQs CSS **********/
