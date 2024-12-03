@@ -18,7 +18,7 @@ h6 {
 }
 
 a {
-    color: #b9aeae;
+    color: #b28813;
     transition: .3s;
 }
 
@@ -72,14 +72,7 @@ a:focus {
     transition: .3s;
 }
 
-@media (max-width: 575.98px) {
-    #brands {
-        padding-top: 250px;
-    }
-    .container {
-        padding-top: 50px;
-    }
-}
+
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
@@ -942,7 +935,7 @@ a:focus {
 .team {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 45px 0 0px 0;
 }
 
 .team .team-item {
@@ -1039,16 +1032,6 @@ a:focus {
     transition: .3s .3s;
 }
 
-@media(max-width: 400px) {
-    .container {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 100px;
-    }
-}
 
 /*******************************/
 /*********** FAQs CSS **********/
@@ -2536,4 +2519,63 @@ a:focus {
     }
   }
   
+  .whatsapp-float {
+    position: fixed;
+    bottom: 80px; /* Adjusted to avoid overlap with the call button */
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    color: #ffffff;
+    background-color: #1da851;
+}
+
+.whatsapp-icon {
+    font-size: 30px;
+}
+
+.whatsapp-icon {
+    font-size: 30px;
+}
+
+/* Styling for the Call button */
+.call-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.call-float:hover {
+    color: #ffffff;
+    background-color: #0056b3;
+}
+
+.call-icon {
+    font-size: 20px;
+}
+.call-icon:hover {
+    color: #ffffff;
+}
   
